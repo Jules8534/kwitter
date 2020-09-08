@@ -1,0 +1,13 @@
+/* --main-color: #3F88C5;
+--very-dark-color: #140F2D;
+--dark-accent-color: #330C2F;
+--mid-accent-color: #7B287D;
+--bright-accent-color: #F49D37; */
+
+.YouMightLikeClass {
+    border: .5px solid var(--very-dark-color);
+    background: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

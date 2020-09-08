@@ -1,0 +1,21 @@
+
+.FooterNavClass {
+    background-color: var(--main-color);
+    color: var(--fancy-white);
+}
+
+.FooterNavClass a {
+    text-decoration: none;
+}
+
+#FooterNavLinkListId{
+    list-style-type: none;
+    display: flex;
+    align-content: flex-start;
+    font-size: smaller;
+}
+
+.footerListItem {
+    margin: 3px;
+}
+

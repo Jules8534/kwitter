@@ -1,0 +1,27 @@
+/* --main-color: #3F88C5;
+--very-dark-color: #140F2D;
+--dark-accent-color: #330C2F;
+--mid-accent-color: #7B287D;
+--bright-accent-color: #F49D37; */
+
+#menu {
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  border-radius: 1em;
+  color: var(--very-dark-color);
+}
+
+#menu-links {
+  display: flex;
+  padding-left: 1em;
+}
+
+#menu-links a {
+  padding-right: 0.5em;
+  color: var(--very-dark-color);
+  text-decoration: underline;
+  cursor: pointer;
+}

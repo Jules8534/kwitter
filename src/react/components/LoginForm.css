@@ -1,0 +1,23 @@
+#login-form {
+  display: block;
+  margin:  auto;
+} 
+
+.login {
+  margin: auto;
+  padding: 0px;
+  width: 50%;
+  /* background: black; */
+}
+
+.loginButton {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100px;
+  padding: 5px;
+}
+
+.signUpButton {
+  position: relative;
+  left: 35px;
+}

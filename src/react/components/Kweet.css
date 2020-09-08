@@ -1,0 +1,75 @@
+/* --main-color: #3F88C5;
+--very-dark-color: #140F2D;
+--dark-accent-color: #330C2F;
+--mid-accent-color: #7B287D;
+--bright-accent-color: #F49D37;
+--fancy-white: it's the fancy white*/
+
+.kweetClass {
+    background: var(--main-color);
+    width: 80%;
+    border: .5px solid var(--very-dark-color);
+    border-radius: 1;
+    color: var(--fancy-white);
+    margin: 2px;
+}
+.kweetClassEmbiggen{
+    background: var(--fancy-white);
+    width: 80%;
+    border: .5px solid var(--very-dark-color);
+    border-radius: 2;
+    font-size: large;
+    color: var(--dark-accent-color);
+    margin: 2px;
+}
+.aboutKweet{
+    font-size: small;
+}
+.kweetHeader {
+    background: var(--main-color);
+    font-weight: bold;
+    margin: 1px 5px 0 5px;
+    padding: 5px 0 0 5px;
+    color: var(--bright-accent-color);
+    border-bottom: 1px solid var(--very-dark-color);
+    height: 8vh;
+}
+
+.kweetHeader div {
+    display: inline-block;
+}
+
+.kweetHeader a {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline solid var(--fancy-white);
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+
+.kweetHeader a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+.kweetHeader p {
+    /* display: block; */
+    height: auto;
+    color: var(--fancy-white);
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    font-weight: normal;
+    font-size: .90em;
+}
+
+.kweetContent {
+    margin: 10px;
+}
+
+.kweetInfoBar span {
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+}
