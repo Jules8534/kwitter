@@ -59,6 +59,7 @@ class CreateUserForm extends React.Component {
                   label="Password"
                   margin="normal"
                   name="password"
+                  type="password"
                   onChange={this.update}
                 />
                 {/* <TextField
